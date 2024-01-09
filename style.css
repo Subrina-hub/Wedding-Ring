@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
+ul, li, h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+}
+
+.header, .nav {
+  background: #a8b0c7;
+
+}
+
+
+
+.nav li{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+ font-size: 17px;
+ margin-right: -8px;
+ padding-left: 71px;
+  color: #ac1c1c;
+}
+
+
+.nav a{
+  color: #f8ecec;
+  
+}
+
+img.img-fluid.logo {
+  width: 15%;
+  padding-bottom: 10px;
+  animation: animName 2s linear infinite;
+}
+@keyframes animName {
+  0%{
+     transform: rotate(0deg);
+    }
+ 100%{
+     transform: rotate(360deg);
+    }
+  }
+
+.banner{
+  background: url(img/bg1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  
+  
+}
+
+.banner img{
+ width: 85%;
+ padding-top: 143px;
+}
+
+.social1{
+  padding-left:668px;
+}
+
+
+.col-lg-6.mail {
+  padding-left:263px;
+  font-family: 'Dancing Script', cursive;
+  color: #f7f6f6;
+}
+
+
+.banner1 h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    font-size: 100px;
+    padding-top: 40px;
+    color: #98abdf;
+
+}
+
+
+.banner_text h2{
+  font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #98abdf;
+}
+
+.banner_text h3{
+  font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #98abdf;
+}
+
+.banner_text button{
+    font-weight: 600;
+    font-size: 24px;
+    color: #98abdf;
+    border-color: #98abdf;
+    background: none;
+    padding: 6px 19px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.charm{
+  background: url(img/bg2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  height: 450px;
+ 
+}
+
+
+.charm_text h2 span{
+  display: block;
+}
+
+.charm_text h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 54px;
+  padding-top: 65px;
+  color: #98abdf;
+  font-weight: 800;
+}
+
+.charm_text p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+   width: 40%;
+   color: #4e73d9;
+}
+
+.charm_text button{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+    font-size: 24px;
+    color: #98abdf;
+    border-color: #98abdf;
+    background: none;
+    padding: 6px 19px;
+    border-radius: 10px;
+    margin-top: 6px;
+}
+
+
+.trendy {
+  background: #f8ecec;
+  position: relative;
+  height:700px;
+}
+
+.trendy img{
+position: absolute;
+top: 18%;
+left: 34%;
+
+}
+
+.trendy h2{
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  font-size: 87px;
+  padding-top: 40px;
+  color: #98abdf;
+}
+
+.trendy h3{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  padding-top:260px;
+  color: #98abdf;
+  font-weight: 600;
+  
+}
+
+.trendy p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #98abdf;
+  font-weight: 300;
+  width:50%;
+  margin: auto;
+  
+}
+
+.trendy button{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #98abdf;
+  border-color: #98abdf;
+  background: none;
+  padding: 6px 19px;
+  border-radius: 10px;
+  margin-top: 6px;
+ margin-top: 20px;
+ 
+}
+
+.fa-facebook{
+color: #593fec;
+}
+
+.fa-twitter{
+  color: #e2d8d8;
+}
+
+.fa-instagram{
+  color: #df0909;
+}
+
+.fa-whatsapp{
+  color: #0e7723;
+}
+.trendy h5{
+  font-family: 'Poppins', sans-serif;
+  font-size:10px;
+  padding-top:40px ;
+  color: #2956d1;
+  font-weight:400;
+  
+}
+
+img.img-fluid.aos-init.aos-animate {
+  padding-left: 40px;
+}
+
+.trendy h5 span{
+  color: #d12929;
+}
+
+.wimg{
+  background: #f8ecec;
+  position: relative;
+
+}
+
+
+.img1 h2{
+  position: absolute;
+  top: 50%;
+  left: 13%;
+  color:#f7f9fd ;
+  
+}
+
+.img2 h2{
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  color:#f7f9fd ;
+}
+img.img-fluid.im2{
+  width: 60% !important;
+}
+
+.best{
+  background: #f8ecec;
+}
+
+.best h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 51px;
+  padding-top: 40px;
+  color: #98abdf;
+}
+
+.im1{
+  padding-top: 27px;
+  width: 100%;
+}
+
+.im2{
+  padding-top: 94px;
+}
+
+.im2 .img{
+  width: 50%;
+}
+
+
+.jewels{
+  background:#f8ecec;
+
+}
+
+.jewel-t h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #98abdf;
+}
+
+.jewel-t p{
+  font-family: 'Roboto', sans-serif;
+  font-weight:300;
+  font-size: 20px;
+  color: #98abdf;
+  width:45%;
+  margin: auto;
+  padding-bottom:50px;
+}
+
+.jewel_text{
+  background: rgb(247, 244, 244);
+    padding: 20px;
+    margin-left: -71px;
+    width: 500px;
+    height: 350px;
+}
+
+
+
+.jewel_text h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #98abdf;
+}
+
+
+.jewel_text p{
+  font-family: 'Roboto', sans-serif;
+  font-weight:300;
+  font-size: 20px;
+  color: #98abdf;
+  width:88%;
+  margin: auto;
+  padding-bottom:50px;
+}
+
+.jewel_text button{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #98abdf;
+  border-color: #98abdf;
+  background: none;
+  padding: 8px 87px;
+  border-radius: 10px;
+  
+}
+
+.jewel_text1{
+  background: rgb(247, 244, 244);
+    padding: 20px;
+  margin-left:97px;
+    margin-top:30px;
+    width: 500px;
+    height: 350px;
+}
+
+.jewel_text1 h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #98abdf;
+}
+
+
+.jewel_text1 p{
+  font-family: 'Roboto', sans-serif;
+  font-weight:300;
+  font-size: 20px;
+  color: #98abdf;
+  width:80%;
+  margin: auto;
+  padding-bottom:50px;
+}
+
+
+.jewel_text1 button{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #98abdf;
+  border-color: #98abdf;
+  background: none;
+  padding: 8px 87px;
+  border-radius: 10px;
+  
+}
+
+.guides{
+  background: #f8ecec ;
+}
+
+
+.guides h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 51px;
+  padding-top: 40px;
+  color: #98abdf;
+}
+
+
+.guides p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  padding:10px;
+  color: #98abdf;
+}
+.review {
+  background: #f8ecec;
+  position: relative;
+}
+
+
+.review h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 51px;
+  color: #98abdf;
+}
+
+.review p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  padding:10px;
+  color: #98abdf;
+}
+
+.review .imgg{
+  position: absolute;
+  width: 24%;
+}
+
+.review_text P{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding:25px;
+  color: #98abdf;
+  position: absolute;
+  top: 43%;
+  left:15%;
+  width: 35%;
+}
+.review_text h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding:25px;
+  color: #df98b0;
+  position: absolute;
+  top: 58%;
+  left:15%;
+  width: 35%;
+}
+
+
+.review button{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #98abdf;
+  border-color: #98abdf;
+  background: none;
+  padding: 8px 87px;
+  border-radius: 10px;
+   margin: 20px;
+ margin-left: 366px;
+}
+
+.footer{
+  background: #b6c3e9;
+  padding: 25px;
+  padding-bottom: 40px;
+
+  
+}
+
+
+footer h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #fafaff;
+}
+
+.footer1 h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #fafaff;
+  padding-left: 30px;
+}
+
+.footer1 p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color:  #4e73d9;
+  padding-left: 30px
+  
+}
+
+
+.footer1 ul {
+  list-style: none !important;
+  
+ 
+}
+
+.footer1 a{
+  
+    text-decoration: none;
+    cursor: pointer !important;
+    color: #4e73d9;
+    transition: 02s;
+
+}
+
+.footer1 li{
+font-family: 'Roboto', sans-serif;
+padding-top: 3px;
+font-size:12px ;
+transition: 02s;
+
+  
+ 
+}
+
+.form{
+  background: #f7f9fd;
+  border-radius: 50px;
+  margin-top: 40px;
+
+ 
+
+}
+
+.form h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding-top:10px;
+  color: #4e73d9;
+  text-align: center;
+}
+
+  .form input {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+    padding: 3px 114px;
+    border-radius: 50px;
+    border-color: #4e73d9;
+    margin-left: -59px;
+}
+
+.form button {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5px;
+  padding: 3px 50px;
+  border-radius: 50px;
+  border-color: #4e73d9;
+  margin-left: -188px;
+  color: #4e73d9;
+}
+
+button:hover{
+  color: #f6f6f6;
+  background: #829eea;
+}
+
+.social{
+  padding-left:300px;
+}
+
+li a:hover{
+ color: #f7f9fd;
+}
+
+img.img-fluid.about {
+  width: 21%;
+  padding: 0px;
+}
+
+/* Code for animated blinking cursor. */
+
+.typed-cursor {
+  opacity: 1;
+  font-weight: 100;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+
+#typed{
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  font-size: 100px;
+  padding-top: 40px;
+  color: #98abdf;
+
+}
+
+#backtotop{
+  width: 60px !important;
+  height: 60px !important;
+  background-color: #cac3f3 !important;
+  border-radius: 20px !important;
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: rgb(255, 253, 253);
+}
+html{
+  scroll-behavior: smooth !important;
+}
+
+.active{
+  opacity: 1 !important;
+  visibility: visible !important;
+  transition: 0.7s ease;
+  align-items: center;
+
+}
